@@ -9,7 +9,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #d1cfcf;
 }
-
+h1{
+    text-align: center;
+}
 #display {
     width: 90%; /* Make the display full-width */
     margin-bottom: 10px;
