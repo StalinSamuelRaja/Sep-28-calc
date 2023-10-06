@@ -1,0 +1,50 @@
+/* Base styles */
+.calculator {
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for larger screens */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #a2a0a0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #d1cfcf;
+}
+
+#display {
+    width: 90%; /* Make the display full-width */
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%; /* Make buttons full-width */
+}
+
+.number, .operator, .decimal {
+    background-color: #e0dbdb;
+    border: 1px solid #292626;
+}
+
+#clear, #calculate {
+    background-color: #e0dbdb;
+    color: #ff5722;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    /* Adjust styles for screens with a minimum width of 768px */
+    .calculator {
+        width: 70%; /* You can adjust this as needed */
+    }
+}
